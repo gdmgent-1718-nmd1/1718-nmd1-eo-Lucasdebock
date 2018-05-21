@@ -16,3 +16,67 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+p.titel {
+    text-transform: uppercase;
+    font-family: Karla;
+    font-weight: normal;
+    font-size: 57px;
+    color: #a2d256;
+}
+
+p.subtitel {
+    text-transform: lowercase;
+    font-family: Karla;
+    font-weight: bold;
+    font-size: 40px;
+    color: #E3E954;
+}
+
+p.tekst {
+    text-transform: lowercase;
+    font-family: avenir;
+    font-weight: normal;
+    font-size: 20px;
+    color: #000000;
+}
+
+ a{
+    text-transform: lowercase;
+    font-family: avenir;
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: 20px;
+    color: #6F8DD9;
+}
+a:link {
+    color: #6F8DD9;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: #50df5a;
+}
+a:active {
+    color: red;
+}
+
+input {
+    border: 2px solid #6F8DD9;
+    color: #000000;
+}
+input.submit:hover {
+    background-color: #6F8DD9;
+}
+input.submit:active {
+    background-color: #6F8DD9;
+}
+input.submit:link {
+    background-color: #6F8DD9;
+}
+input.text {
+    color:  #6F8DD9;
+}
+input.text:focus {
+    color:  #6F8DD9;
+}
